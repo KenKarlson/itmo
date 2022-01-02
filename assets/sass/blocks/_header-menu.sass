@@ -1,0 +1,30 @@
+.header
+  &-menu
+    display: flex
+    align-items: center
+    justify-content: end
+    &-list
+      display: flex
+      align-items: center
+      margin: 0
+      padding: 24px 0
+      list-style: none
+
+      &__item
+        &:not(:last-child)
+          &::after
+            content: url(../../assets/img/dot.png)
+            //content: <i class="fa-duotone fa-period"></i>
+            //font: var(--fa-duotone fa-period)
+            //content: "\f192"
+            margin-left: 16px
+            margin-right: 16px
+            color: #06bac5
+      &__link
+        text-decoration: none
+        text-transform: uppercase
+        font-family: Roboto
+        font-size: 18px
+        line-height: 24px
+        font-weight: 400
+        color: #06bac5

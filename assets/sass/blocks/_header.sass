@@ -1,5 +1,7 @@
 .header
-  background-color: #008daa
+  &-top
+    background-color: $header-bg
+
   &-wrapper
     display: flex
     padding-top: 30px
@@ -16,11 +18,15 @@
       display: flex
       align-items: center
       justify-content: end
-  &-menu
-    display: flex
-    align-items: center
-    justify-content: end
+
+  &-bottom
+
   &__title
     list-style: none
     text-decoration: underline
     color: #d4d0c8
+  &__icons
+    &:not(:last-child)
+      &::after
+        content: ''
+        margin-right: 48px

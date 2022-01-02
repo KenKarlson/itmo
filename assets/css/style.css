@@ -1,4 +1,13 @@
-.header {
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-top {
   background-color: #008daa;
 }
 
@@ -43,5 +52,51 @@
   list-style: none;
   text-decoration: underline;
   color: #d4d0c8;
+}
+
+.header__icons:not(:last-child)::after {
+  content: '';
+  margin-right: 48px;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.header-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 24px 0;
+  list-style: none;
+}
+
+.header-menu-list__item:not(:last-child)::after {
+  content: url(../../assets/img/dot.png);
+  margin-left: 16px;
+  margin-right: 16px;
+  color: #06bac5;
+}
+
+.header-menu-list__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #06bac5;
 }
 /*# sourceMappingURL=style.css.map */
