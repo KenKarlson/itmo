@@ -59,6 +59,10 @@ body {
   margin-right: 48px;
 }
 
+.header {
+  background-color: #eeeeed;
+}
+
 .header-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,5 +102,130 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: #06bac5;
+}
+
+.hero {
+  background-color: #eeeeed;
+  z-index: -2;
+}
+
+.hero-wrapper {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 300px;
+}
+
+.hero__img {
+  position: absolute;
+  top: 250px;
+  left: 40px;
+  z-index: 0;
+}
+
+.hero__title {
+  margin-bottom: 122px;
+  font-family: Philosopher;
+  font-size: 55px;
+  line-height: 92px;
+  font-weight: 400;
+  color: #005c7b;
+  z-index: 3;
+}
+
+.hero__subtitle {
+  margin-bottom: 75px;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #005c7b;
+  z-index: 1;
+}
+
+.hero-btn {
+  padding: 20px 40px;
+  border-radius: 60px;
+  border: none;
+  background-color: #005c7b;
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #eeeeed;
+  z-index: 1;
+}
+
+.about-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+}
+
+.about-card__image {
+  margin-bottom: 45px;
+}
+
+.about-card__title {
+  margin-bottom: 24px;
+  font-family: Philosopher;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #005c7b;
+}
+
+.about-card__subtitle {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #008daa;
+}
+
+.about__title {
+  margin-top: 112px;
+  margin-bottom: 115px;
+  font-family: Philosopher;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #005c7b;
+}
+
+.about__subtitle {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #005c7b;
+}
+
+.about__info {
+  margin-bottom: 112px;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #005c7b;
 }
 /*# sourceMappingURL=style.css.map */
