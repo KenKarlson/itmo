@@ -234,8 +234,10 @@ body {
 }
 
 .advantages {
-  margin-top: 140px;
-  margin-bottom: 300px;
+  background-color: #eeeeed;
+  margin: 0;
+  padding-top: 140px;
+  padding-bottom: 300px;
 }
 
 .advantages__title {
@@ -273,5 +275,75 @@ body {
 
 .advantages-box__image {
   margin-right: 40px;
+}
+
+.questions {
+  padding-top: 142px;
+}
+
+.questions-box {
+  padding-bottom: 376px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.questions__title {
+  margin-bottom: 77px;
+  font-family: Philosopher;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #005c7b;
+}
+
+.questions-bottom {
+  margin-top: 60px;
+  margin-bottom: 46px;
+}
+
+.questions-bottom__title {
+  font-family: Philosopher;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #008daa;
+}
+
+.questions__link {
+  margin: auto;
+  font-family: Philosopher;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #005c7b;
+}
+
+.question__title {
+  margin-bottom: 20px;
+  font-family: Philosopher;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #008daa;
+}
+
+.answer__title {
+  margin-left: 40px;
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #005c7d;
 }
 /*# sourceMappingURL=style.css.map */
