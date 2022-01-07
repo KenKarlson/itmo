@@ -54,6 +54,10 @@ body {
   color: #d4d0c8;
 }
 
+.header__title:hover {
+  color: #eeeeed;
+}
+
 .header__icons:not(:last-child)::after {
   content: '';
   margin-right: 48px;
