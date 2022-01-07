@@ -446,8 +446,118 @@ body {
   right: 200px;
 }
 
+.contacts-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 141px;
+  padding-bottom: 212px;
+}
+
+.contacts-box-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts-box-links {
+  margin-bottom: 143px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts-box-links__title {
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #005c7d;
+}
+
+.contacts-box-links__line {
+  margin: 0 100px;
+}
+
+.contacts-box-links__link {
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #008daa;
+}
+
+.contacts__title {
+  margin-bottom: 167px;
+  font-family: Philosopher;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #005c7b;
+  text-transform: uppercase;
+}
+
+.contacts__subtitle {
+  margin-bottom: 64px;
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #005c7d;
+}
+
+.contacts__icons:not(:last-child)::after {
+  content: '';
+  margin-right: 100px;
+}
+
 .footer {
-  background-color: red;
-  height: 100px;
+  background-color: #005c7b;
+  color: #eeeeed;
+}
+
+.footer-box {
+  padding: 20px 0 26px;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.footer-box__link {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.footer-box__link:-webkit-any-link {
+  color: #eeeeed;
+}
+
+.footer-box__link:-moz-any-link {
+  color: #eeeeed;
+}
+
+.footer-box__link:any-link {
+  color: #eeeeed;
 }
 /*# sourceMappingURL=style.css.map */
